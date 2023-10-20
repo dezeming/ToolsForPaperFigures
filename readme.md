@@ -1,9 +1,9 @@
-# 功能：
+# Function
 
 
 
 
-# 开发环境：
+# Development Environment
 
 Qt5
 
@@ -13,17 +13,17 @@ opencv+opencv_contrib
 
 openexr
 
-# 复制Qt环境到当前目录
+## Copy the Qt environment to the current directory
 
-cmd启动：进入Qt的windeployqt.exe路径，作用于Qt程序，例如：
+CMD startup: Enter the windeployqt.exe path of Qt, which acts on the Qt program, such as:
 
 D:/DevTools/Qt/5.15.2/msvc2019_64/bin/
 
-调用：
+Call:
 
-windeployqt.exe 你的目录/PaperDrawingTools.exe
+windeployqt.exe YourDirectory/PaperDrawingTools.exe
 
-切勿进入PaperDrawingTools.exe所在目录调用windeployqt.exe：
+Do not enter the directory where PaperDrawingTools.exe is located to call windeployqt.exe:
 
 D:/DevTools/Qt/5.15.2/msvc2019_64/bin/windeployqt.exe PaperDrawingTools.exe
 
